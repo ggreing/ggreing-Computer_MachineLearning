@@ -68,9 +68,9 @@
 
 ### 패턴인식의 성능 평가  
 * 혼동행렬  
-             Actual Positive  Actual Negative  
-Predicted Positive     TP     FP  
-Predicted Negative     FN     TN  
+###                          Actual Positive  Actual Negative  
+### Predicted Positive              TP               FP  
+### Predicted Negative              FN               TN  
 
 
 
