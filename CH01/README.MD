@@ -68,9 +68,18 @@
 
 ### 패턴인식의 성능 평가  
 * 혼동행렬  
-###                          Actual Positive  Actual Negative  
-### Predicted Positive              TP               FP  
-### Predicted Negative              FN               TN  
+ * True Positive(TP) : 실제 True인 정답을 True라고 예측(정답)  
+ * False Positive(FP) : 실제 False인 정답을 True라고 예측(오답)  
+ * False Negative(FN) : 실제 True인 정답을 False라고 예측(오답)  
+ * True Negative(TN) : 실제 False인 정답을 False라고 예측(정답)  
+* 재현율 : 실제 True인 것 중에서 모델이 True 라고 예측한 것의 비율  
+* 정밀도 : 모델이 True라고 분류한 것 중에서 실제 True인 것의 비율  
+* FPR(False Positive Rate) : 실제 False인 data 중에서 모델이 True라고 예측한 비율  
+* 혼동행렬 계산  
+ 취소율(recall rate) = TP / (TP + FN)  
+ 정밀도(precision) = TP / (TP + FP)  
+ 참 긍정률(TPR, True Positive Rate) = TP / (TP + FN)  
+ 거짓 긍정률(FPR, False Positive Rate) = FP / (FP + TN)  
 
 
 
