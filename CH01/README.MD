@@ -76,10 +76,10 @@
 * 정밀도 : 모델이 True라고 분류한 것 중에서 실제 True인 것의 비율  
 * FPR(False Positive Rate) : 실제 False인 data 중에서 모델이 True라고 예측한 비율  
 * 혼동행렬 계산  
- 취소율(recall rate) = TP / (TP + FN)  
- 정밀도(precision) = TP / (TP + FP)  
- 참 긍정률(TPR, True Positive Rate) = TP / (TP + FN)  
- 거짓 긍정률(FPR, False Positive Rate) = FP / (FP + TN)  
+  취소율(recall rate) = TP / (TP + FN)  
+  정밀도(precision) = TP / (TP + FP)  
+  참 긍정률(TPR, True Positive Rate) = TP / (TP + FN)  
+  거짓 긍정률(FPR, False Positive Rate) = FP / (FP + TN)  
 
 
 
